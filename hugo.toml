@@ -1,0 +1,83 @@
+baseURL = 'https://teimosodolinux.github.io/'
+locale = 'pt-br'
+title = 'Teimoso do Linux'
+theme = 'PaperMod'
+defaultContentLanguage = 'pt'
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
+# 2. Ativar HTML para os comentários
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+defaultContentLanguage = "pt"
+
+[languages.pt]
+    languageName = "Português"
+    contentDir = "content"
+    weight = 1
+
+
+[[menu.main]]
+    name = "Arquivo"
+    url = "/archives"
+    weight = 1
+
+[[menu.main]]
+    name = "Busca"
+    url = "/search"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 3
+
+
+[params]
+
+comments = true
+showComments = true
+#env = "production" # Isso "engana" o tema dizendo que o site já está no ar
+
+
+[params.homeInfoParams]
+    Title = "Teimoso do Linux"
+    Content = """
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px; text-align: left;">
+    <img src="/images/Subgenius_Celus_512x512.webp" 
+         style="width: 120px; height: 120px; border-radius: 50%; border: 0px solid #ccc; flex-shrink: 0;">
+    <div style="flex: 1; min-width: 250px;">
+        <strong>Marcelo "Linuxcelo" Souza // Apanhando do Open Source desde 2002.</strong><br>
+        Dinossauro analógico da era DOS perdendo a sanidade mental devido ao uso excessivo do terminal. Prossiga por sua conta e risco, e que Patrick Volkerding tenha misericórdia de sua alma.
+    </div>
+</div>
+"""
+
+[params.assets]
+favicon = "favicon.ico"
+
+# Isso faz com que as tags apareçam no topo/rodapé dos posts
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+ShowBreadCrumbs = true
+# Mostra as tags abaixo do título do post
+showTags = true
+
+[params.cover]
+linkFullImages = false
+responsiveImages = true
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/teimosodolinux"
+[[params.socialIcons]]
+name = "email"
+url = "mailto:teimosodolinux@gmail.com"
