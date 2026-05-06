@@ -37,7 +37,7 @@ Tudo corria razoavelmente bem, até eu pensar:
 Mal sabia eu que o "ato final" — configurar uma simples caixa de comentários — se tornaria o meu **final boss**.
 
 <p align="center">
-  <img src="/images/Git-King.webp" width="80%" alt="Setup do Lab">
+  <img src="/images/Git-King.webp" width="80%" alt="GitHub o início">
   <br><em>Criar uma conta no GitHub foi a parte fácil.</em>
 </p>
 
@@ -79,7 +79,7 @@ unsafe = true
 O Hugo não apenas ignorou o comando, como *berrou* erros de sintaxe que me fizeram questionar se eu ainda sabia ler um arquivo de configuração.
 
 <p align="center">
-  <img src="/images/Crisis-Finalis.webp" width="80%" alt="Setup do Lab">
+  <img src="/images/Crisis-Finalis.webp" width="80%" alt="Desgraça pouca é bobagem">
   <br><em>Nada como um dia exasperante de combate contra o terminal.</em>
 </p>
 
