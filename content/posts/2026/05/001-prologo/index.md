@@ -1,17 +1,16 @@
----
-title: "Prólogo: 12 Horas, 3 Sistemas de Comentários e um Blog (Quase) Funcional"
-subtitle: "A Maldição do Rodapé"
-date: 2026-05-06
-draft: false
-cover:
-    image: "images/Prologo-Aperture.webp"
-    alt: "Old School Monitor"
-    relative: false
++++
+title = "Prólogo: 12 Horas, 3 Sistemas de Comentários e um Blog (Quase) Funcional"
+date = 2026-05-06
+draft = false
+slug = "prologo-blog-quase-funcional"
+tags = ["hugo", "linux", "blog", "open-source", "github-pages"]
 
-tags: ["hugo", "linux", "blog", "open-source", "github-pages"]
----
+[cover]
+    image = "images/Prologo-Aperture.webp"
+    alt = "Old School Monitor"
+    relative = false
++++
 
----
 
 Eu tinha um objetivo simples: iniciar um blog para compartilhar minhas aventuras e desventuras técnicas envolvendo Linux, software livre e assuntos correlatos. Bolei uma estrutura legal, um layout honesto, fiz alguma pesquisa sobre plataformas e pronto — decidi hospedar tudo no GitHub. Parecia um caminho lógico e natural, já que um blog sobre Open Source *precisa* ficar no GitHub, certo?
 

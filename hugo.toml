@@ -1,8 +1,15 @@
 baseURL = 'https://teimosodolinux.github.io/'
-languageCode = 'pt-br'
+locale = 'pt-br'
 title = 'Teimoso do Linux'
 theme = 'PaperMod'
 defaultContentLanguage = 'pt'
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-S2SWP0L7S2"
+
+[permalinks]
+    posts = "/posts/:year/:month/:slug/"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -20,7 +27,7 @@ defaultContentLanguage = 'pt'
 defaultContentLanguage = "pt"
 
 [languages.pt]
-    languageName = "Português"
+    label = "Português"
     contentDir = "content"
     weight = 1
 
@@ -44,9 +51,6 @@ defaultContentLanguage = "pt"
 [params]
 
 comments = true
-showComments = true
-#env = "production" # Isso "engana" o tema dizendo que o site já está no ar
-
 
 [params.homeInfoParams]
     Title = "Teimoso do Linux"

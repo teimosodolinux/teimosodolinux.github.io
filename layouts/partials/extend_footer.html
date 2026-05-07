@@ -1,0 +1,25 @@
+<script>
+function getGiscusTheme() {
+    return document.documentElement.getAttribute('data-theme') === 'dark'
+        ? 'dark'
+        : 'light';
+}
+
+function sendGiscusTheme(theme) {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (!iframe) return;
+    iframe.contentWindow.postMessage(
+        { giscus: { setConfig: { theme: theme } } },
+        'https://giscus.app'
+    );
+}
+
+const observer = new MutationObserver(() => {
+    sendGiscusTheme(getGiscusTheme());
+});
+
+observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['data-theme']
+});
+</script>

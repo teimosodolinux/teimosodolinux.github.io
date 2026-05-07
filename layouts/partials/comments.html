@@ -1,0 +1,24 @@
+<script>
+(function() {
+    var theme = localStorage.getItem('pref-theme');
+    if (!theme) {
+        theme = document.documentElement.getAttribute('data-theme') || 'light';
+    }
+    var script = document.createElement('script');
+    script.src = 'https://giscus.app/client.js';
+    script.setAttribute('data-repo', 'teimosodolinux/teimosodolinux.github.io');
+    script.setAttribute('data-repo-id', 'R_kgDOSUBAFQ');
+    script.setAttribute('data-category', 'General');
+    script.setAttribute('data-category-id', 'DIC_kwDOSUBAFc4C8WF6');
+    script.setAttribute('data-mapping', 'pathname');
+    script.setAttribute('data-strict', '0');
+    script.setAttribute('data-reactions-enabled', '1');
+    script.setAttribute('data-emit-metadata', '0');
+    script.setAttribute('data-input-position', 'bottom');
+    script.setAttribute('data-theme', theme);
+    script.setAttribute('data-lang', 'pt');
+    script.setAttribute('crossorigin', 'anonymous');
+    script.async = true;
+    document.currentScript.parentNode.appendChild(script);
+})();
+</script>
