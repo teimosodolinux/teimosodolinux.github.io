@@ -43,7 +43,7 @@ Aproveitei para atualizar a bio do blog para espelhar exatamente o que está nas
 <p align="center">
   <img src="images/Subgenius_Celus_512x512.webp" width="80%" alt="SubGenius Nerd">
   <br><em>Fina estampa.</em>
-</p><br/>
+
 ---
 
 ## O Favicon e a saga do browser errado
@@ -81,7 +81,7 @@ Funcionou na primeira tentativa. Estou ficando bom nisso.
   <img src="images/social-900x600.webp" width="80%" alt="Logo do X">
   <br><em>Elon Musk, meu camarada.</em>
 </p>
-<br>
+
 ---
 
 ## As Redes Sociais existem. Tenho provas.
