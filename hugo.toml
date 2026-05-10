@@ -50,6 +50,10 @@ defaultContentLanguage = "pt"
 
 [params]
 
+ShowCodeCopyButtons = true
+
+favicon = "favicon.ico"
+
 comments = true
 
 [params.homeInfoParams]
@@ -59,14 +63,17 @@ comments = true
     <img src="/images/Subgenius_Celus_512x512.webp" 
          style="width: 120px; height: 120px; border-radius: 50%; border: 0px solid #ccc; flex-shrink: 0;">
     <div style="flex: 1; min-width: 250px;">
-        <strong>Marcelo "Linuxcelo" Souza // Apanhando do Open Source desde 2002.</strong><br>
-        Dinossauro analógico da era DOS perdendo a sanidade mental devido ao uso excessivo do terminal. Prossiga por sua conta e risco, e que Patrick Volkerding tenha misericórdia de sua alma.
+        <strong>Marcelo "Linuxcelo" Souza</strong><br>
+        Dinossauro analógico da era DOS, apanhando do Open Source desde 2002 e perdendo a sanidade mental por uso excessivo do Xterm.
     </div>
 </div>
 """
 
-[params.assets]
-favicon = "favicon.ico"
+[privacy.x]
+disable = false
+enableDNT = true
+simple = false
+
 
 # Isso faz com que as tags apareçam no topo/rodapé dos posts
 ShowPostNavLinks = true
@@ -82,6 +89,15 @@ responsiveImages = true
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/teimosodolinux"
+
+[[params.socialIcons]]
+name = "x"
+url = "https://x.com/teimosodolinux"
+
+[[params.socialIcons]]
+name = "instagram"
+url = "https://instagram.com/teimosodolinux"
+
 [[params.socialIcons]]
 name = "email"
 url = "mailto:teimosodolinux@gmail.com"
