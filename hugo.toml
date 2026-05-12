@@ -65,17 +65,17 @@ defaultContentLanguageInSubdir = true
 
   [[languages.pt.menu.main]]
     name = "Arquivo"
-    url = "/archives/"
+    url = "archives/"
     weight = 1
 
   [[languages.pt.menu.main]]
     name = "Busca"
-    url = "/search/"
+    url = "search/"
     weight = 2
 
   [[languages.pt.menu.main]]
     name = "Tags"
-    url = "/tags/"
+    url = "tags/"
     weight = 3
 
 [languages.en]
