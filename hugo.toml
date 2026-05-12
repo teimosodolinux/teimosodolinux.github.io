@@ -65,17 +65,17 @@ defaultContentLanguageInSubdir = true
 
   [[languages.pt.menu.main]]
     name = "Arquivo"
-    url = "archives/"
+    url = "/archives/"
     weight = 1
 
   [[languages.pt.menu.main]]
     name = "Busca"
-    url = "search/"
+    url = "/search/"
     weight = 2
 
   [[languages.pt.menu.main]]
     name = "Tags"
-    url = "tags/"
+    url = "/tags/"
     weight = 3
 
 [languages.en]
@@ -119,17 +119,17 @@ defaultContentLanguageInSubdir = true
 
   [[languages.en.menu.main]]
     name = "Archive"
-    url = "en/archives/"
+    url = "/en/archives/"
     weight = 1
 
   [[languages.en.menu.main]]
     name = "Search"
-    url = "en/search/"
+    url = "/en/search/"
     weight = 2
 
   [[languages.en.menu.main]]
     name = "Tags"
-    url = "en/tags/"
+    url = "/en/tags/"
     weight = 3
 
 # ── PARAMS GLOBAIS ─────────────────────────────────────────
