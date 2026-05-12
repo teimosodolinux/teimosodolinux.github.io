@@ -1,62 +1,56 @@
 baseURL = 'https://teimosodolinux.github.io/'
-locale = 'pt-br'
 title = 'Teimoso do Linux'
 theme = 'PaperMod'
 defaultContentLanguage = 'pt'
+defaultContentLanguageInSubdir = true
 
 [services]
   [services.googleAnalytics]
     ID = "G-S2SWP0L7S2"
 
 [permalinks]
-    posts = "/posts/:year/:month/:slug/"
+  posts = "/posts/:year/:month/:slug/"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
-    tag = "tags"
-    category = "categories"
+  tag = "tags"
+  category = "categories"
 
-# 2. Ativar HTML para os comentários
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
 
-defaultContentLanguage = "pt"
-
+# ── IDIOMAS ────────────────────────────────────────────────
 [languages.pt]
-    label = "Português"
-    contentDir = "content"
-    weight = 1
+  label = "Português"
+  contentDir = "content/pt"
+  weight = 1
+  languageName = "Português"
 
+[[languages.pt.params.socialIcons]]
+    name = "github"
+    url = "https://github.com/teimosodolinux"
 
-[[menu.main]]
-    name = "Arquivo"
-    url = "/archives"
-    weight = 1
+[[languages.pt.params.socialIcons]]
+    name = "x"
+    url = "https://x.com/teimosodolinux"
+  
+[[languages.pt.params.socialIcons]]
+    name = "instagram"
+    url = "https://instagram.com/teimosodolinux"
 
-[[menu.main]]
-    name = "Busca"
-    url = "/search"
-    weight = 2
+[[languages.pt.params.socialIcons]]
+    name = "email"
+    url = "mailto:teimosodolinux@gmail.com"
 
-[[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = 3
+[[languages.pt.params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
 
-
-[params]
-
-ShowCodeCopyButtons = true
-
-favicon = "favicon.ico"
-
-comments = true
-
-[params.homeInfoParams]
+  [languages.pt.params.homeInfoParams]
     Title = "Teimoso do Linux"
     Content = """
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px; text-align: left;">
@@ -64,40 +58,94 @@ comments = true
          style="width: 120px; height: 120px; border-radius: 50%; border: 0px solid #ccc; flex-shrink: 0;">
     <div style="flex: 1; min-width: 250px;">
         <strong>Marcelo "Linuxcelo" Souza</strong><br>
-        Dinossauro analógico da era DOS, apanhando do Open Source desde 2002 e perdendo a sanidade mental por uso excessivo do Xterm.
+        Nerd jurássico da era DOS, apanhando do Open Source e perdendo a sanidade mental por uso excessivo do Xterm.
     </div>
 </div>
 """
 
+  [[languages.pt.menu.main]]
+    name = "Arquivo"
+    url = "archives/"
+    weight = 1
+
+  [[languages.pt.menu.main]]
+    name = "Busca"
+    url = "search/"
+    weight = 2
+
+  [[languages.pt.menu.main]]
+    name = "Tags"
+    url = "tags/"
+    weight = 3
+
+[languages.en]
+  label = "English"
+  contentDir = "content/en"
+  weight = 2
+  languageName = "English"
+
+[[languages.en.params.socialIcons]]
+    name = "github"
+    url = "https://github.com/teimosodolinux"
+
+[[languages.en.params.socialIcons]]
+    name = "x"
+    url = "https://x.com/teimosodolinux"
+
+[[languages.en.params.socialIcons]]
+    name = "instagram"
+    url = "https://instagram.com/teimosodolinux"
+
+[[languages.en.params.socialIcons]]
+    name = "email"
+    url = "mailto:teimosodolinux@gmail.com"
+
+[[languages.en.params.socialIcons]]
+    name = "rss"
+    url = "/en/index.xml"
+
+  [languages.en.params.homeInfoParams]
+    Title = "Stubborn Linuxer"
+    Content = """
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px; text-align: left;">
+    <img src="/images/Subgenius_Celus_512x512.webp" 
+         style="width: 120px; height: 120px; border-radius: 50%; border: 0px solid #ccc; flex-shrink: 0;">
+    <div style="flex: 1; min-width: 250px;">
+        <strong>Marcelo "Linuxcelo" Souza</strong><br>
+        Jurassic nerd from the DOS era, getting beaten by Open Source and losing sanity from excessive Xterm usage.
+    </div>
+</div>
+"""
+
+  [[languages.en.menu.main]]
+    name = "Archive"
+    url = "en/archives/"
+    weight = 1
+
+  [[languages.en.menu.main]]
+    name = "Search"
+    url = "en/search/"
+    weight = 2
+
+  [[languages.en.menu.main]]
+    name = "Tags"
+    url = "en/tags/"
+    weight = 3
+
+# ── PARAMS GLOBAIS ─────────────────────────────────────────
+[params]
+  ShowCodeCopyButtons = true
+  favicon = "favicon.png"
+  comments = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  showTags = true
+
+  [params.cover]
+    linkFullImages = false
+    responsiveImages = true
+
 [privacy.x]
-disable = false
-enableDNT = true
-simple = false
-
-
-# Isso faz com que as tags apareçam no topo/rodapé dos posts
-ShowPostNavLinks = true
-ShowCodeCopyButtons = true
-ShowBreadCrumbs = true
-# Mostra as tags abaixo do título do post
-showTags = true
-
-[params.cover]
-linkFullImages = false
-responsiveImages = true
-
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/teimosodolinux"
-
-[[params.socialIcons]]
-name = "x"
-url = "https://x.com/teimosodolinux"
-
-[[params.socialIcons]]
-name = "instagram"
-url = "https://instagram.com/teimosodolinux"
-
-[[params.socialIcons]]
-name = "email"
-url = "mailto:teimosodolinux@gmail.com"
+  disable = false
+  enableDNT = true
+  simple = false
