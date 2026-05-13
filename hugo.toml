@@ -58,7 +58,7 @@ defaultContentLanguageInSubdir = true
          style="width: 120px; height: 120px; border-radius: 50%; border: 0px solid #ccc; flex-shrink: 0;">
     <div style="flex: 1; min-width: 250px;">
         <strong>Marcelo "Linuxcelo" Souza</strong><br>
-        Nerd jurássico da era DOS, apanhando do Open Source e perdendo a sanidade mental por uso excessivo do Xterm.
+        Nerd jurássico da era DOS, apanhando do Open Source e perdendo a sanidade por uso excessivo do Xterm.
     </div>
 </div>
 """

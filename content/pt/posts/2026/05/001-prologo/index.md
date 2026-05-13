@@ -8,7 +8,7 @@ tags = ["hugo", "linux", "blog", "open-source", "github-pages"]
 [cover]
     image = "images/Prologo-Aperture.webp"
     alt = "Old School Monitor"
-    relative = false
+    relative = true
 +++
 
 

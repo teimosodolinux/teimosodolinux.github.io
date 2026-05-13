@@ -8,7 +8,7 @@ tags = ["blog", "configuração", "hugo", "papermod", "redes sociais", "Batman"]
 [cover]
     image = "images/header-1200x630.webp"
     alt = "Sábado a noite"
-    relative = false
+    relative = true
 +++
 
 Certamente ele não sai por aí, travestido de morcego, procurando criminosos fantasiados de palhaço para espancá-los.

@@ -8,7 +8,7 @@ tags = ["github", "hugo", "linux", "blog", "configuração"]
 [cover]
     image = "images/header-1200x630.webp"
     alt = "404 madness"
-    relative = false
+    relative = true
 +++
 
 No post anterior, eu coloquei muita banca, contei vantagem de como havia conseguido subir o blog de maneira quase perfeita. Bullshit. Foi uma surra. Quase fui derrotado por uma barra invertida no arquivo markdown. Pelo menos agora já tenho ao menos um campo de comentários funcional, eu acho. Ainda precisa de testes em produção.
