@@ -135,7 +135,7 @@ defaultContentLanguageInSubdir = true
 # ── PARAMS GLOBAIS ─────────────────────────────────────────
 [params]
   ShowCodeCopyButtons = true
-  favicon = "favicon.png"
+  favicon = "favicon.ico"
   comments = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
