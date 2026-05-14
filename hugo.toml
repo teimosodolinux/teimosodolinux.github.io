@@ -1,5 +1,5 @@
 baseURL = 'https://teimosodolinux.github.io/'
-title = 'Teimoso do Linux'
+#title = 'Teimoso do Linux'
 theme = 'PaperMod'
 defaultContentLanguage = 'pt'
 defaultContentLanguageInSubdir = true
@@ -29,6 +29,7 @@ defaultContentLanguageInSubdir = true
   contentDir = "content/pt"
   weight = 1
   languageName = "Português"
+  title = "Teimoso do Linux"
 
 [[languages.pt.params.socialIcons]]
     name = "github"
@@ -83,6 +84,7 @@ defaultContentLanguageInSubdir = true
   contentDir = "content/en"
   weight = 2
   languageName = "English"
+  title = "Stubborn Linuxer"
 
 [[languages.en.params.socialIcons]]
     name = "github"
